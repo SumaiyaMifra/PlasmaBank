@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff59d"
+        android:padding="15dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/namerowtext"
+            android:text="This is Demo Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailrowtext"
+            android:text="This is email"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/namerowtext"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phonenorowtext"
+            android:text="phone no"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/emailrowtext"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/negdaterowtext"
+            android:text="negative date"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/phonenorowtext"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastdaterowtext"
+            android:text="last donate"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/negdaterowtext"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bgrouprowtext"
+            android:text="blood group"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/lastdaterowtext"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/districtrowtext"
+            android:text="district"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/bgrouprowtext"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nearhosrowtext"
+            android:text="nearest hospital"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/districtrowtext"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genderrowtext"
+            android:text="gender"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/nearhosrowtext"
+            android:layout_marginLeft="10dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

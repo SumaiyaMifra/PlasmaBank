@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/textView2donor"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@color/colorprimary"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        app:drawableTint="@color/black"
+        app:drawableTopCompat="@drawable/ic_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/colorprimary"
+        android:gravity="center|start"
+        android:text="@string/a1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2donor"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/plasma"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <EditText
+                android:id="@+id/nameupdatepage"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="@string/a5"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/phonenoupdatepage"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="@string/a9"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/a10"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/radioupdatepage"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp">
+
+                <RadioButton
+                    android:id="@+id/radioButtonupdatepage"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="Male"
+                    android:textSize="17sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2updatepage"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="Female"
+                    android:textSize="17sp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/negdateupdatepage"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Negative Date(MM-dd-yyyy)" />
+
+            <EditText
+                android:id="@+id/lastdateupdatepage"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Donated Date(MM-dd-yyyy/none)" />
+
+            <EditText
+                android:id="@+id/bgroupupdatepage"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Blood group(Ex. o+/o-)" />
+
+            <EditText
+                android:id="@+id/districtupdatepage"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="District" />
+
+            <EditText
+                android:id="@+id/nearhosupdatepage"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nearest Hospital" />
+
+            <Button
+                android:id="@+id/buttonR1updatepage"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:background="#82e9de"
+                android:text="Update"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

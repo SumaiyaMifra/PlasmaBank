@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PlasmaBank</string>
+    <string name="a1">PlasmaBank</string>
+    <string name="a2">Do not have an account? Register first</string>
+    <string name="a3">Login</string>
+    <string name="a4">Here</string>
+    <string name="a5">Enter Your Name</string>
+    <string name="a6">Enter Your email</string>
+    <string name="a7">Enter Your Password</string>
+    <string name="a8">Confirm Password</string>
+    <string name="a9">Enter Your Phone Number</string>
+    <string name="a10">Enter Your Gender</string>
+</resources>
